@@ -69,8 +69,8 @@ Before you begin, make sure you have the following software installed:
     npm start
     ```
 
-   - Open your browser and navigate to:
-    
+### 3. **Open your browser and navigate to:**
+-
     ```
     http://localhost:3000
     ```
