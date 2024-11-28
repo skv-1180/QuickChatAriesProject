@@ -33,17 +33,9 @@ Before you begin, make sure you have the following software installed:
 
 1. **Clone the repository**:
 
-    ```bash
-    git clone https://github.com/skv-1180/QuickChatAriesProject.git
-    ```
-
 2. **Navigate to the project folder**:
 
-    ```bash
-    cd QuickChatAriesProject
-    ```
-
-4. **Install backend dependencies**:
+3. **Install backend dependencies**:
 
     Go to the `server` directory and install the required dependencies:
 
