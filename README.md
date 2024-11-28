@@ -44,7 +44,7 @@ Before you begin, make sure you have the following software installed:
     cd QuickChatAriesProject
     ```
 
-3. **Install backend dependencies**:
+4. **Install backend dependencies**:
 
     Go to the `server` directory and install the required dependencies:
 
@@ -57,7 +57,7 @@ Before you begin, make sure you have the following software installed:
 
 ### 1. **Run the backend server**:
    - From the `server` directory, run:
-
+-
     ```bash
     npm start
     ```
@@ -66,20 +66,20 @@ Before you begin, make sure you have the following software installed:
 
    - Open a new terminal window and navigate to the project root.
    - Go to the `public/my-app` directory and install frontend dependencies:
-
+-
     ```bash
     cd public/my-app
     npm install
     ```
 
    - After installation, start the frontend server:
-
+    
     ```bash
     npm start
     ```
 
    - Open your browser and navigate to:
-
+    
     ```
     http://localhost:3000
     ```
