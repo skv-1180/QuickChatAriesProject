@@ -19,7 +19,6 @@ This project is a social media platform built using the **MERN stack**. The plat
 1. [Requirements](#requirements)
 2. [Installation](#installation)
 3. [Running the Application](#running-the-application)
-4. [License](#license)
 
 ## Requirements
 
