@@ -1,67 +1,87 @@
-Project Overview
-This website is built using the MERN stack.
+# Social Media Platform
 
-The primary objective of our social media platform is to create a vibrant online community where users can connect, share content, and engage with others. Our platform aims to provide a seamless user experience, promote meaningful interactions, and cater to specific niches or interests.
+This project is a social media platform built using the **MERN stack**. The platform is designed to create a vibrant online community where users can connect, share content, and engage with others in a seamless and meaningful way.
 
-Key Features:
-User Authentication and Profiles:
+## Key Features
 
-Secure user registration and login.
-Users can create and customize their profiles.
-Messaging and Chat:
+- **User Authentication and Profiles**:
+  - Secure user registration and login.
+  - Users can create and customize their profiles.
 
-Private messaging between users.
-News Feed and Content Sharing:
+- **Messaging and Chat**:
+  - Private messaging between users for personal communication.
 
-A news feed where users can post text, images, videos, and links.
-Content sharing, liking, and commenting.
+- **News Feed and Content Sharing**:
+  - A dynamic news feed where users can post text, images, videos, and links.
+  - Users can share, like, and comment on posts.
 
+## Table of Contents
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Running the Application](#running-the-application)
+4. [License](#license)
 
-Table of Contents
+## Requirements
 
-Ensure you have the following software installed on your machine:
+Before you begin, make sure you have the following software installed:
 
-Node.js (version 14.x or later)
+- **Node.js** (version 14.x or later)
+- **npm** (version 6.x or later)
+- **Git**
+- **MongoDB**
 
-npm (version 6.x or later) 
+## Installation
 
-Git
+1. **Clone the repository**:
 
-MongoDB
+    ```bash
+    git clone https://github.com/skv-1180/QuickChatAriesProject.git
+    ```
 
-Installation
+2. **Navigate to the project folder**:
 
-Clone the repository:
+    ```bash
+    cd QuickChatAriesProject
+    ```
 
-git clone https://github.com/skv-1180/QuickChatAriesProject.git
+3. **Install backend dependencies**:
 
-cd yourproject
-cd server
+    Go to the `server` directory and install the required dependencies:
 
-Install dependencies:
+    ```bash
+    cd server
+    npm install
+    ```
 
-npm install
+## Running the Application
 
-Running the Application
+### 1. **Run the backend server**:
+   - From the `server` directory, run:
 
-Run the backend server:
+    ```bash
+    npm start
+    ```
 
-npm start
+### 2. **Run the frontend server**:
 
-Run the frontend server:
+   - Open a new terminal window and navigate to the project root.
+   - Go to the `public/my-app` directory and install frontend dependencies:
 
-Open a new terminal window and navigate to the project root, then run:
+    ```bash
+    cd public/my-app
+    npm install
+    ```
 
-cd public
+   - After installation, start the frontend server:
 
-cd my-app
+    ```bash
+    npm start
+    ```
 
-Install dependencies:
+   - Open your browser and navigate to:
 
-npm install
+    ```
+    http://localhost:3000
+    ```
 
-npm start
-
-Open your browser and navigate to:
-
-http://localhost:3000
+---
